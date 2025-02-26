@@ -1,0 +1,347 @@
+{
+  "users": {
+    "rdiazl": {
+      "username": "rdiazl",
+      "email": "rdiazl@bancochile.cl",
+      "password": "A1b2C3d4E5!@",
+      "role": ["desarrollador", "lider", "admin"],
+      "feedbacks": ["rdiazl-2024-11-12"]
+    },
+    "mavargasc": {
+      "username": "mavargasc",
+      "email": "mavargasc@bancochile.cl",
+      "password": "F6g7H8i9J0#%",
+      "role": ["desarrollador", "lider", "admin"]
+    },
+    "mcornejoa": {
+      "username": "mcornejoa",
+      "email": "mcornejoa.2brains@bancochile.cl",
+      "password": "K1l2M3n4O5$^",
+      "role": ["desarrollador", "admin"]
+    },
+    "camartinem": {
+      "username": "camartinem",
+      "email": "camartinem.3it@bancochile.cl",
+      "password": "P6q7R8s9T0",
+      "role": ["desarrollador", "admin"]
+    },
+    "jifloress": {
+      "username": "jifloress",
+      "email": "jifloress.3it@bancochile.cl",
+      "password": "U1v2W3x4Y5(%$",
+      "role": ["desarrollador", "admin"]
+    },
+    "sfrugar": {
+      "username": "sfrugar",
+      "email": "sfrugar.2brains@bancochile.cl",
+      "password": "Z6a7B8c9D0!@#",
+      "role": ["desarrollador", "admin"]
+    },
+    "floyola": {
+      "username": "floyola",
+      "email": "floyola.3it@bancochile.cl",
+      "password": "E1f2G3h4I5$^%",
+      "role": ["desarrollador"]
+    },
+    "pfgonzald": {
+      "username": "pfgonzald",
+      "email": "pfgonzald@bancochile.cl",
+      "password": "J6k7L8m9N0",
+      "role": ["gerente", "admin"]
+    },
+    "jmedinao": {
+      "username": "jmedinao",
+      "email": "jmedinao@bancochile.cl",
+      "password": "O1p2Q3r4S5(%#",
+      "role": ["gerente", "admin"]
+    },
+    "flazog": {
+      "username": "flazog",
+      "email": "flazog@bancochile.cl",
+      "password": "T6u7V8w9X0!@%",
+      "role": ["gerente", "admin"]
+    },
+    "spincheirm": {
+      "username": "spincheirm",
+      "email": "spincheirm@bancochile.cl",
+      "password": "B2c3D4e5F6$%",
+      "role": ["desarrollador", "lider"]
+    },
+    "atapiae": {
+      "username": "atapiae",
+      "email": "atapiae@bancochile.cl",
+      "password": "G7h8I9j0K1#@",
+      "role": ["desarrollador"]
+    },
+    "lardila": {
+      "username": "lardila",
+      "email": "lardila@bancochile.cl",
+      "password": "L2m3N4o5P6$^",
+      "role": ["desarrollador"]
+    },
+    "pperezi": {
+      "username": "pperezi",
+      "email": "pperezi@bancochile.cl",
+      "password": "Q7r8S9t0U1",
+      "role": ["desarrollador"]
+    },
+    "jseverin": {
+      "username": "jseverin",
+      "email": "jseverin.globallogic@bancochile.cl",
+      "password": "V2w3X4y5Z6(%$",
+      "role": ["desarrollador"]
+    },
+    "fmarinv": {
+      "username": "fmarinv",
+      "email": "fmarinv@bancochile.cl",
+      "password": "A7b8C9d0E1!@",
+      "role": ["desarrollador"]
+    },
+    "asanchezga": {
+      "username": "asanchezga",
+      "email": "asanchezga@bancochile.cl",
+      "password": "F2g3H4i5J6#%",
+      "role": ["desarrollador"]
+    },
+    "cpirela": {
+      "username": "cpirela",
+      "email": "cpirela@bancochile.cl",
+      "password": "K7l8M9n0O1$^",
+      "role": ["desarrollador"]
+    },
+    "rruizf": {
+      "username": "rruizf",
+      "email": "rruizf@bancochile.cl",
+      "password": "P2q3R4s5T6",
+      "role": ["desarrollador"]
+    },
+    "ccabelloru": {
+      "username": "ccabelloru",
+      "email": "ccabelloru@bancochile.cl",
+      "password": "E7f8G9h0I1$%",
+      "role": ["desarrollador"]
+    },
+    "ktorresn": {
+      "username": "ktorresn",
+      "email": "ktorresn@bancochile.cl",
+      "password": "J2k3L4m5N6#^",
+      "role": ["scrumMaster"]
+    },
+    "fmavila": {
+      "username": "fmavila",
+      "email": "fmavila@bancochile.cl",
+      "password": "O7p8Q9r0S1",
+      "role": ["desarrollador"]
+    },
+    "iladino": {
+      "username": "iladino",
+      "email": "iladino@bancochile.cl",
+      "password": "T2u3V4w5X6(%$",
+      "role": ["desarrollador"]
+    },
+    "fareyese": {
+      "username": "fareyese",
+      "email": "fareyese@bancochile.cl",
+      "password": "Y7z8A9b0C1!@",
+      "role": ["desarrollador", "lider"]
+    },
+    "polavarria": {
+      "username": "polavarria",
+      "email": "polavarria@bancochile.cl",
+      "password": "D2e3F4g5H6$%",
+      "role": ["productOwner"]
+    },
+    "jperezm": {
+      "username": "jperezm",
+      "email": "jperezm@bancochile.cl",
+      "password": "Q1w2!E3r4@T5",
+      "role": ["productDesigner", "lider"]
+    },
+    "obfuentesp": {
+      "username": "obfuentesp",
+      "email": "obfuentesp@bancochile.cl",
+      "password": "Y6u7#I8o9$P0",
+      "role": ["productDesigner", "lider"]
+    },
+    "mazamora": {
+      "username": "mazamora",
+      "email": "mazamora@bancochile.cl",
+      "password": "A1s2%D3f4^G5",
+      "role": ["productDesigner", "lider"]
+    },
+    "aalday": {
+      "username": "aalday",
+      "email": "aalday@bancochile.cl",
+      "password": "N1o2!P3q@R4S",
+      "role": ["productDesigner", "lider"]
+    },
+    "cpizarroc": {
+      "username": "cpizarroc",
+      "email": "cpizarroc@bancochile.cl",
+      "password": "X1c2(V3b4)N5",
+      "role": ["productDesigner", "lider"]
+    },
+    "fvillarroe": {
+      "username": "fvillarroe",
+      "email": "fvillarroe@bancochile.cl",
+      "password": "M6n7-B8v9_C0",
+      "role": ["productDesigner", "lider"]
+    },
+    "kbisama": {
+      "username": "kbisama",
+      "email": "kbisama@bancochile.cl",
+      "password": "A1b2!C3d@E4F",
+      "role": ["productDesigner"]
+    },
+    "respinozau": {
+      "username": "respinozau",
+      "email": "respinozau@bancochile.cl",
+      "password": "G5h6#I7j$K8L",
+      "role": ["productDesigner"]
+    },
+    "arcastro": {
+      "username": "arcastro",
+      "email": "arcastro.2brains@bancochile.cl",
+      "password": "M9n0%O1p^Q2R",
+      "role": ["productDesigner"]
+    },
+    "acatalana": {
+      "username": "acatalana",
+      "email": "acatalana.2brains@bancochile.cl",
+      "password": "Q1w2!E3r@T4y",
+      "role": ["productDesigner"]
+    },
+    "ybarreram": {
+      "username": "ybarreram",
+      "email": "ybarreram.2brains@bancochile.cl",
+      "password": "Y7z8)A9b_C0D",
+      "role": ["productDesigner"]
+    },
+    "pcanales": {
+      "username": "pcanales",
+      "email": "pcanales.2brains@bancochile.cl",
+      "password": "A1b!2C@3dE4f",
+      "role": ["productDesigner"]
+    },
+    "mcgonzalem": {
+      "username": "mcgonzalem",
+      "email": "mcgonzalem@bancochile.cl",
+      "password": "G5h#6I$7jK8l",
+      "role": ["productDesigner"]
+    },
+    "ifrenchdav": {
+      "username": "ifrenchdav",
+      "email": "ifrenchdav.2brains@bancochile.cl",
+      "password": "M9n%0O^1pQ2r",
+      "role": ["productDesigner"]
+    },
+    "curbinam": {
+      "username": "curbinam",
+      "email": "curbinam.deloitte@bancochile.cl",
+      "password": "A1b2!C3d4@E5",
+      "role": ["productDesigner"]
+    },
+    "lquintana": {
+      "username": "lquintana",
+      "email": "lquintana.2brains@bancochile.cl",
+      "password": "Z7a_8B9cD0e",
+      "role": ["productDesigner"]
+    },
+    "jjcornejoc": {
+      "username": "jjcornejoc",
+      "email": "jjcornejoc.2brains@bancochile.cl",
+      "password": "F1g!2H@3iJ4k",
+      "role": ["productDesigner"]
+    },
+    "cborquezd": {
+      "username": "cborquezd",
+      "email": "cborquezd.accenture@bancochile.cl",
+      "password": "L5m#6N$7oP8q",
+      "role": ["productDesigner"]
+    },
+    "sinostrozm": {
+      "username": "sinostrozm",
+      "email": "sinostrozm.accenture@bancochile.cl",
+      "password": "R9s%0T^1uV2w",
+      "role": ["productDesigner"]
+    },
+    "mjleon": {
+      "username": "mjleon",
+      "email": "mjleon.2brains@bancochile.cl",
+      "password": "L1m#2N$3oP4q",
+      "role": ["productDesigner"]
+    },
+    "mmcastillo": {
+      "username": "mmcastillo",
+      "email": "mmcastillo.2brains@bancochile.cl",
+      "password": "D7e_8F9gH0iJ",
+      "role": ["productDesigner"]
+    },
+    "isenn": {
+      "username": "isenn",
+      "email": "isenn.2brains@bancochile.cl",
+      "password": "J1k!2L@3mN4o",
+      "role": ["productDesigner"]
+    },
+    "jpurrutia": {
+      "username": "jpurrutia",
+      "email": "jpurrutia.2brains@bancochile.cl",
+      "password": "P5q#6R$7sT8u",
+      "role": ["productDesigner"]
+    },
+    "jcanet": {
+      "username": "jcanet",
+      "email": "jcanet@bancochile.cl",
+      "password": "V9w%0X^1yZ2a",
+      "role": ["productDesigner"]
+    },
+    "ralvarezg": {
+      "username": "ralvarezg",
+      "email": "ralvarezg@bancochile.cl",
+      "password": "W3x4Y5z6A7!@",
+      "role": ["productDesigner"]
+    },
+    "lvalenzuet": {
+      "username": "lvalenzuet",
+      "email": "lvalenzuet.deloitte@bancochile.cl",
+      "password": "H7i_8J9kL0mN",
+      "role": ["productDesigner"]
+    },
+    "bjimenez": {
+      "username": "bjimenez",
+      "email": "bjimenez@bancochile.cl",
+      "password": "N1o!2P@3qR4s",
+      "role": ["productDesigner"]
+    },
+    "amaldonadg": {
+      "username": "amaldonadg",
+      "email": "amaldonadg@bancochile.cl",
+      "password": "T5u#6V$7wX8y",
+      "role": ["productDesigner"]
+    },
+    "mregla": {
+      "username": "mregla",
+      "email": "mregla.accenture@bancochile.cl",
+      "password": "Z9a%0B^1cD2e",
+      "role": ["productDesigner"]
+    },
+    "dtroncosoo": {
+      "username": "dtroncosoo",
+      "email": "dtroncosoo.2brains@bancochile.cl",
+      "password": "P1q2R#3s4T$5",
+      "role": ["productDesigner"]
+    },
+    "avalenti": {
+      "username": "avalenti",
+      "email": "avalenti.accenture@bancochile.cl",
+      "password": "L7m_8N9oP0qR",
+      "role": ["productDesigner"]
+    },
+    "ldurans": {
+      "username": "ldurans",
+      "email": "ldurans.banchilei@bancochile.cl",
+      "password": "R1s!2T@3uV4w",
+      "role": ["productDesigner"]
+    }
+  }
+}

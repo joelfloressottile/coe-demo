@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
+import ThemeSwitch from "@/components/ThemeSwitch";
+import Link from "next/link";
+import { House } from "lucide-react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +27,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider attribute="class">
+          <div className="container flex items-center mx-auto mt-5 mb-10">
+            <Link href="/" className="p-2 hover:bg-foreground/5 rounded">
+              <House size={24} />
+            </Link>
+            <ThemeSwitch className="inline-block ml-auto"></ThemeSwitch>
+          </div>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
