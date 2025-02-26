@@ -1,5 +1,7 @@
 # COE DEMO: Fetching en NextJS
 Demo para algunas formas de Fetch mediante features de NextJS y otras librerías
+
+## NextJS Setup
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

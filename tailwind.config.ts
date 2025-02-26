@@ -7,6 +7,7 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+<<<<<<< HEAD
     container: {
       padding: {
         DEFAULT: '1rem',
@@ -24,5 +25,14 @@ export default {
     },
   },
   darkMode: "class",
+=======
+    extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
+    },
+  },
+>>>>>>> jflores/fetching-patterns
   plugins: [],
 } satisfies Config;
