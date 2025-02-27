@@ -6,7 +6,7 @@ import Loading from "@/components/Loading";
 
 const Page = async (props: { params: Promise<{ username: string }> }) => {
   const { username } = await props.params;
-  const data = await fetch(`http://localhost:3000/api/users/${username}`);
+  const data = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/users/${username}`);
   const user: User = await data.json();
 
   return (

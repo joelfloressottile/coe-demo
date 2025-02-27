@@ -4,7 +4,7 @@ import { ScrollText } from "lucide-react";
 import Loading from "@/components/Loading";
 
 const Page = async () => {
-  const response = await fetch("http://localhost:3000/api/users");
+  const response = await fetch(process.env.NEXT_PUBLIC_API_BASE_URL+ "/api/users");
   const users = await response.json();
 
   return (
