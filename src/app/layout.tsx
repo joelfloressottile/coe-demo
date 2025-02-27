@@ -38,7 +38,7 @@ export default function RootLayout({
             </Link>
             <ThemeSwitch className="inline-block ml-auto"></ThemeSwitch>
           </div>
-          {children}
+          <div className="pb-4">{children}</div>
         </ThemeProvider>
       </body>
     </html>
