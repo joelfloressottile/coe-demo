@@ -1,6 +1,5 @@
 import { getUsersAction } from "@/app/server-actions/actions";
 import { User } from "@/app/types/user";
-import { InfoBlock } from "@/components/InfoBlock";
 import Loading from "@/components/Loading";
 import UserList from "@/components/UserList";
 import { ScrollText } from "lucide-react";

@@ -13,9 +13,12 @@ export const GET = async (
     const params = await props.params;
     const user = await usersDB.getData(`/users/${params.username}`);
     return new NextResponse(JSON.stringify(user), { status: 200 });
-  } catch (error: any) {
-    return new NextResponse("Error al buscar usuario: " + error.message, {
-      status: 500,
-    });
+  } catch (error: unknown) {
+    return new NextResponse(
+      "Error al buscar usuario: " + (error as Error).message,
+      {
+        status: 500,
+      }
+    );
   }
 };
