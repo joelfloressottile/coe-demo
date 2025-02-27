@@ -15,7 +15,7 @@ const ThemeSwitch = ({ className }: { className?: string }) => {
     if (!mounted)
       return (
         <div className="p-2">
-          <SunMoon size={24} aria-hidden="true" />
+          <SunMoon size={32} aria-hidden="true" />
         </div>
       );
 
