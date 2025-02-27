@@ -18,7 +18,7 @@ export default function Home() {
           <b>MinervAI</b> mediante distintos patrones de fetch en NextJS.
         </p>
 
-        <p className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] max-w-[45rem]"> Revisa cada una de las formas para realizar fetch:</p>
+        <p className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] max-w-[45rem]"> Revisa distintas formas para realizar fetch:</p>
         <div className="flex gap-4 flex-col lg:flex-row flex-wrap items-center justify-center sm:items-start">
           <Link
             href="/api-routes-demo/users"
