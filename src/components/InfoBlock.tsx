@@ -26,7 +26,7 @@ export const InfoBlock = ({ title, body, links }: InfoBlockProps) => {
         </p>
         {links?.length && (
           <ul className="mt-4 flex flex-col gap-3">
-            {links.map((link) => (
+            {links?.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
