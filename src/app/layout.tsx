@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-<<<<<<< HEAD
 import { ThemeProvider } from "next-themes";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import Link from "next/link";
 import { House } from "lucide-react";
-=======
->>>>>>> jflores/fetching-patterns
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +27,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-<<<<<<< HEAD
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -44,13 +40,6 @@ export default function RootLayout({
           </div>
           {children}
         </ThemeProvider>
-=======
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
->>>>>>> jflores/fetching-patterns
       </body>
     </html>
   );
