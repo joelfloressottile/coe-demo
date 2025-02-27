@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { Suspense } from "react";
 import UserList from "@/components/UserList";
 import { ScrollText } from "lucide-react";

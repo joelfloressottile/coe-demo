@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { Mail, MessageSquareText, MoveLeft, Tags } from "lucide-react";
 import Link from "next/link";
 import { User } from "@/app/types/user";
