@@ -1,11 +1,15 @@
-export const dynamic = 'force-dynamic'
+export const dynamic = "force-dynamic";
 import { Suspense } from "react";
 import UserList from "@/components/UserList";
 import { ScrollText } from "lucide-react";
 import Loading from "@/components/Loading";
+import { BASE_API_URL } from "@/utilities/constants";
 
 const Page = async () => {
-  const response = await fetch(process.env.NEXT_PUBLIC_API_BASE_URL+ "/api/users");
+  if (!BASE_API_URL) {
+    return null;
+  }
+  const response = await fetch(`${BASE_API_URL}/api/users`);
   const users = await response.json();
 
   return (

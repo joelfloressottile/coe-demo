@@ -1,19 +1,26 @@
-export const dynamic = 'force-dynamic'
+export const dynamic = "force-dynamic";
 import { Mail, MessageSquareText, MoveLeft, Tags } from "lucide-react";
 import Link from "next/link";
 import { User } from "@/app/types/user";
 import { Suspense } from "react";
 import Loading from "@/components/Loading";
+import { BASE_API_URL } from "@/utilities/constants";
 
 const Page = async (props: { params: Promise<{ username: string }> }) => {
+  if (!BASE_API_URL) {
+    return null;
+  }
   const { username } = await props.params;
-  const data = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/users/${username}`);
+  const data = await fetch(`${BASE_API_URL}/api/users/${username}`);
   const user: User = await data.json();
 
   return (
     <>
       <div className="flex items-center gap-3 mb-10">
-        <Link href="/api-routes-demo/users" className="p-2 hover:bg-foreground/5 rounded">
+        <Link
+          href="/api-routes-demo/users"
+          className="p-2 hover:bg-foreground/5 rounded"
+        >
           <MoveLeft />
         </Link>
         <h1 className="font-bold text-2xl">Perfil de {username}</h1>
